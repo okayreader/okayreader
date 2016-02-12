@@ -1,0 +1,219 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.8.6",
+    "versionPublish": "2.8.6",
+    "name": "My Site",
+    "favicon": "",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-54106883-6', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
+    "publishType": "local",
+    "publishPath": "file:///D:/Kiryl/Git/okayreader"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Okay Reader for Windows Phone",
+        "meta_descr": "Okay Reader is a new RSS reader which provides an ability to retrieve news, headlines from direct site URLs or using Feedly account. Platform: windows phone, windows phone 8.1, windows. Author: Kiryl Bahdanovich",
+        "header_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <head> section, right before </head> -->",
+        "footer_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <body> section, right before </body> -->",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {}
+          },
+          "_anchor": "menu-0",
+          "_params": {
+            "color": "#2c2c2c",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/smalllogo-106x106-24.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "http://windowsphone.com/s?appid=5f570dea-758b-4f6e-8907-d07ed0bf2741",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Okay Reader</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:okay.reader.feedback@gmail.com\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            "P": {
+              "font-size": "21px"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/landing-background-png-3840x2160-71.png",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "right",
+            "overlay": false,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#27aae0",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "title": "Okay Reader",
+          "text": "Okay reader is simple, clean and modern windows phone 8.1 news reader. Able to retrieve news either directly from RSS feed or using Feedly account.<br><br>Main features<br>- works in offline<br>- sync in background<br>- read articles inside the application<br>- integration with feedly services<br>- save pictures from the article to your phone<br>- ability to disable images to keep your traffic<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://www.microsoft.com/store/apps/9wzdncrd2n19\" data-toolbar=\"-mbrBtnMove\">Windows 10</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-success\" href=\"http://windowsphone.com/s?appid=5f570dea-758b-4f6e-8907-d07ed0bf2741\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Windows Phone 8.1 and earlier</a> "
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Created by Kiryl Bahdanovich in 2016 | &nbsp;<a class=\"mbr-footer__link text-gray\" href=\"https://docs.google.com/document/d/1VJUgS_rfoCuNDymq1UxCjoIeFEOI0hziJgwYJH-ykVk/edit?usp=sharing\" target=\"_blank\">Privacy Policy</a>"
+        },
+        {
+          "_params": {
+            "postsNumber": "5"
+          },
+          "alias": "facebook-comments",
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-3",
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"file:///C:/Users/yulia/AppData/Local/Mobirise.com/Mobirise/work_002ekiryl_002ebahdanovich_0040gmail_002ecom/addons/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>"
+        },
+        {
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-6",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#f0f0f0",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "firstType": "default",
+            "secondType": "favorite",
+            "thirdType": "hidden",
+            "fourthType": "hidden",
+            "fifthType": "hidden"
+          },
+          "title1": "Free",
+          "currency1": "$",
+          "price1": "0",
+          "period1": "infinitely",
+          "list1": "<ul><li>Articles in feed <b>30</b></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"http://windowsphone.com/s?appid=5f570dea-758b-4f6e-8907-d07ed0bf2741\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">Try</a>",
+          "title2": "BUSINESS",
+          "currency2": "$",
+          "price2": "1.99",
+          "period2": "per year",
+          "list2": "<ul><li>Articles in feed <b>Unlimited</b></li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"http://windowsphone.com/s?appid=5f570dea-758b-4f6e-8907-d07ed0bf2741\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">Enjoy</a>",
+          "title3": "PREMIUM",
+          "currency3": "$",
+          "price3": "0",
+          "period3": "per month",
+          "list3": "<ul><li><b>100 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>50 GB</b> Bandwidth</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">DEMO LINK</a>",
+          "title4": "ULTIMATE",
+          "currency4": "$",
+          "price4": "0",
+          "period4": "per month",
+          "list4": "<ul><li><b>Unlimited</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>1 TB</b> Bandwidth</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
+          "title5": "EXTENDED",
+          "currency5": "$",
+          "price5": "0",
+          "period5": "per month",
+          "list5": "<ul><li><b>Unlimited</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>2 TB</b> Bandwidth</li></ul>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>"
+        },
+        {
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-7",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": true,
+            "counters": true,
+            "facebook": true,
+            "google": false,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "contacts2-4",
+          "_params": {
+            "address": "Mayskaya Street 4, Pryluki",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "info": ""
+          },
+          "coord": [
+            53.7966476,
+            27.45239049999998
+          ],
+          "text1": "<p><strong>ADDRESS</strong><br>Mayskaya Street 4, <br>Pryluki,&nbsp;223011<br><br>\n<strong>CONTACTS</strong><br>Lead:&nbsp;<span style=\"line-height: 1.7em;\"><a href=\"https://www.linkedin.com/in/kiryl-bahdanovich-a180b354\" target=\"_blank\">Kiryl Bahdanovich</a></span></p><p><span style=\"line-height: 1.7em;\">Assistance: <a href=\"https://www.linkedin.com/in/yuliya-ziaziulina-26379556\" target=\"_blank\">Yulia Ziaziulina (UI/UX)</a>,&nbsp;</span><span style=\"line-height: 1.7em;\"><a href=\"https://www.linkedin.com/in/denisantonenko/en\" target=\"_blank\">Denis Antonenko (Dev)</a></span></p><p>Support email: <a href=\"mailto:okay.reader.feedback@gmail.com\">okay.reader.feedback@gmail.com</a><br>\nPhone: <a href=\"+375292233819\">+375292233819</a><br><br></p>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><p class=\"mbr-contacts__text\"><a href=\"https://www.microsoft.com/store/apps/9wzdncrd2n19\" style=\"line-height: 1.7em; background-color: rgb(60, 60, 60);\" class=\"text-info\">Download for Windows 10</a></p><p class=\"mbr-contacts__text\"><a href=\"http://windowsphone.com/s?appid=5f570dea-758b-4f6e-8907-d07ed0bf2741\" class=\"text-success\">Download for Windows 8.1</a></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li></ul>"
+        }
+      ]
+    }
+  }
+}
